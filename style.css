@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    line-height: 1.6;
+}
+.navbar {
+    background-color: #7b2cbf;
+    padding: 20px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-name {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-links {
+    display: flex;
+}
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 15px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.navbar a:hover {
+    color: #ffffff;
+    background-color: #9d4edd;
+}
+.navbar a:visited {
+    color: #e0d6ff;
+}
+.navbar a.active {
+    background-color: #5a189a;
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 56px;
+    margin-bottom: 20px;
+    color: #7b2cbf;
+}
+.content {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+}
+.content p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333333;
+}
+.featured-stories {
+    max-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+}
+.featured-stories h2 {
+    font-size: 32px;
+    color: #7b2cbf;
+    margin-bottom: 50px;
+}
+.story-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 30px;
+}
+.story-card {
+    background: #f9f5ff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(123, 44, 191, 0.1);
+}
+.story-card h3 {
+    color: #5a189a;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.story-card p {
+    color: #555;
+    margin-bottom: 25px;
+    font-size: 16px;
+    min-height: 60px;
+}
+.story-btn {
+    display: inline-block;
+    background-color: #7b2cbf;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.story-btn:hover {
+    background-color: #5a189a;
+}
+.story-btn:visited {
+    background-color: #9d4edd;
+    color: white;
+}
+footer {
+    padding: 40px;
+    font-size: 14px;
+    color: #777777;
+    text-transform: uppercase;
+}
